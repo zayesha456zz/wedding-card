@@ -29,10 +29,8 @@ function Slide1Cover({ onOpen }) {
   }, [isOpened]);
 
   return (
-    // Updated: h-dvh (Standard class)
     <div className="w-full h-dvh bg-[#faf6ee] flex items-center justify-center overflow-hidden">
       
-      {/* Updated: max-w-112.5 aur aspect-9/16 (Standard classes) */}
       <div className="relative w-full max-w-112.5 aspect-9/16 bg-[#faf6ee] shadow-2xl overflow-hidden">
         
         {showNextPage && (
@@ -67,16 +65,19 @@ function Slide1Cover({ onOpen }) {
               <p className="text-[#b8862d] tracking-[0.4em] text-[8px] uppercase mb-4 font-sans">بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ</p>
               <h2 className="text-[9px] uppercase tracking-[0.5em] text-neutral-600 mb-8 font-sans">The Wedding Celebration Of</h2>
               
-              <div className="flex flex-row items-center justify-center gap-4 relative z-40">
-                <div className="flex flex-col items-center flex-1">
-                  <div className="w-20 h-28 border-[3px] border-[#dfb15b] p-1 bg-neutral-200 rounded-t-full">
+              {/* Updated: w-28 h-36 size badha di hai images ki (Zoom Effect) */}
+              <div className="flex flex-row items-center justify-center gap-0 relative z-40 px-2">
+                <div className="flex flex-col items-center">
+                  <div className="w-28 h-36 border-[3px] border-[#dfb15b] p-1 bg-neutral-200 rounded-t-full">
                     <img src="/bride.jpeg" alt="Kinza" className="w-full h-full object-cover rounded-t-full" />
                   </div>
                   <h1 className="mt-3 text-base font-bold text-[#8b5c1a]">Kinza</h1>
                 </div>
-                <div className="text-xl font-bold text-[#dfb15b] pb-8">&</div>
-                <div className="flex flex-col items-center flex-1">
-                  <div className="w-20 h-28 border-[3px] border-[#dfb15b] p-1 bg-neutral-200 rounded-t-full">
+                
+                <div className="text-xl font-bold text-[#dfb15b] pb-10 px-4">&</div>
+                
+                <div className="flex flex-col items-center">
+                  <div className="w-28 h-36 border-[3px] border-[#dfb15b] p-1 bg-neutral-200 rounded-t-full">
                     <img src="/groom.jpeg" alt="Umar" className="w-full h-full object-cover rounded-t-full" />
                   </div>
                   <h1 className="mt-3 text-base font-bold text-[#8b5c1a]">Umar</h1>
