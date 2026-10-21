@@ -129,7 +129,7 @@ function Slide4Barat({ data }) {
             
             <div className="mt-3 flex flex-col items-center">
               <p className="text-[#800000] text-[6px] uppercase tracking-widest font-bold">📍 VENUE</p>
-              <p className="text-[#800000] text-[8px] font-medium leading-tight px-2">Anmol White Marquee, Fareed Town, Sialkot Road Near Canal Bridge  Gujranwala</p>
+              <p className="text-[#800000] text-[6px] font-medium leading-tight px-0.5">Anmol White Marquee, Fareed Town, Sialkot Road Near Canal Bridge  Gujranwala</p>
               <p className="text-[#800000] text-[8px] font-bold uppercase mt-0.5">Arrival | 12:00 P.M.</p>
             </div>
           </div>
