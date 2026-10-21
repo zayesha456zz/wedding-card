@@ -94,7 +94,8 @@ function Slide4Barat({ data }) {
           <img src="/bride parent.png" alt="Bride Parents" className="w-full h-auto object-contain" />
         </div>
 
-        <div className="relative z-40 w-[74%] min-h-90 p-4 flex flex-col items-center justify-center">
+        {/* 'translate-x-3' ama 'translate-x-4' itti daballee gara mirgaatti xiqqoo siqsineera */}
+        <div className="relative z-40 w-[74%] min-h-90 p-4 flex flex-col items-center justify-center translate-x-3">
           <img src="/barat blok.png" alt="Baraat Background Scroll" className="absolute inset-0 w-full h-full object-fill opacity-95 pointer-events-none" />
 
           <div className="relative z-10 flex flex-col items-center text-center px-3 py-3 w-full">
