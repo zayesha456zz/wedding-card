@@ -94,14 +94,14 @@ function Slide4Barat({ data }) {
           <img src="/bride parent.png" alt="Bride Parents" className="w-full h-auto object-contain" />
         </div>
 
-        <div className="relative z-40 w-[85%] min-h-90 p-6 flex flex-col items-center justify-center">
+        <div className="relative z-40 w-[74%] min-h-90 p-4 flex flex-col items-center justify-center">
           <img src="/barat blok.png" alt="Baraat Background Scroll" className="absolute inset-0 w-full h-full object-fill opacity-95 pointer-events-none" />
 
-          <div className="relative z-10 flex flex-col items-center text-center px-4 py-4 w-full">
+          <div className="relative z-10 flex flex-col items-center text-center px-3 py-3 w-full">
             <h1 className="text-[#800000] font-bold text-3xl leading-none" style={{ fontFamily: "'Great Vibes', cursive" }}>Baraat</h1>
-            <p className="text-[#800000] text-[8px] uppercase tracking-[0.2em] mb-3">The Wedding Day</p>
+            <p className="text-[#800000] text-[8px] uppercase tracking-[0.2em] mb-2">The Wedding Day</p>
             
-            <div className="mb-3 space-y-0.5">
+            <div className="mb-2 space-y-0.5">
               <p className="text-[#800000] font-serif italic text-[9px]">Mr & Mrs Abdul Jabbar</p>
               <p className="text-[#800000] text-[8px] italic font-serif">cordially invite you to the Wedding Ceremony of their beloved daughter</p>
               <div className="text-[#800000] flex flex-col pt-1" style={{ fontFamily: "'Dancing Script', cursive" }}>
@@ -111,7 +111,7 @@ function Slide4Barat({ data }) {
               </div>
             </div>
             
-            <div className="w-16 h-px bg-[#800000] my-2"></div>
+            <div className="w-16 h-px bg-[#800000] my-1.5"></div>
 
             <div className="relative w-2/3 mx-auto h-8 flex items-center justify-center border border-[#800000] rounded-md overflow-hidden bg-[#f5e6d3]">
                <div className="text-[#800000] text-center px-2 w-full">
@@ -127,9 +127,9 @@ function Slide4Barat({ data }) {
                />
             </div>
             
-            <div className="mt-3 flex flex-col items-center">
+            <div className="mt-2.5 flex flex-col items-center">
               <p className="text-[#800000] text-[6px] uppercase tracking-widest font-bold">📍 VENUE</p>
-              <p className="text-[#800000] text-[6px] font-medium leading-tight px-0.5">Anmol White Marquee, Fareed Town, Sialkot Road Near Canal Bridge  Gujranwala</p>
+              <p className="text-[#800000] text-[6px] font-medium leading-tight px-1">Anmol White Marquee, Fareed Town, Sialkot Road Near Canal Bridge  Gujranwala</p>
               <p className="text-[#800000] text-[8px] font-bold uppercase mt-0.5">Arrival | 12:00 P.M.</p>
             </div>
           </div>
