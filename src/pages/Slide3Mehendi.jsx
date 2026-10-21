@@ -64,7 +64,7 @@ function Slide3Mehendi() {
             <div className="flex items-center justify-center gap-2 border-y border-[#a17a41]/60 py-1">
               <p className="uppercase text-[8px] tracking-widest font-extrabold">Friday</p>
               <div className="text-xl font-extrabold text-[#4e342e]">20</div>
-              <p className="uppercase text-[8px] tracking-widest font-extrabold">7:00 P.M.</p>
+              <p className="uppercase text-[8px] tracking-widest font-extrabold">6:00 P.M.</p>
             </div>
             <p className="text-[10px] font-medium pt-1">November 2026</p>
             <p className="font-semibold text-[#1f4b23] text-[8px] px-1">
