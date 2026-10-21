@@ -2,15 +2,16 @@ import Watermark from './Watermark';
 
 const AppLayout = ({ children }) => {
   return (
-    // 'flex justify-center' poore layout ko screen ke center mein layega
-    <div className="w-full min-h-screen flex justify-center bg-gray-100">
+    <div className="w-full h-dvh flex items-center justify-center bg-gray-900 overflow-hidden">
       
-      {/* 'max-w-7xl' use kiya hai jo terminal ki warning ko khatam karega.
-        Yeh desktop par proper width dega aur mobile par responsive rahega.
-      */}
-      <div className="w-full max-w-7xl min-h-screen bg-white relative shadow-2xl overflow-hidden">
+      <div className="relative w-full max-w-105 h-full max-h-[212.5rem] aspect-square bg-white shadow-2xl overflow-hidden flex flex-col justify-center items-center">
+        
         <Watermark />
-        <main>{children}</main>
+        
+        <main className="w-full h-full relative overflow-hidden">
+          {children}
+        </main>
+
       </div>
       
     </div>
