@@ -116,7 +116,7 @@ function Slide4Barat({ data }) {
             <div className="relative w-2/3 mx-auto h-8 flex items-center justify-center border border-[#800000] rounded-md overflow-hidden bg-[#f5e6d3]">
                <div className="text-[#800000] text-center px-2 w-full">
                   <p className="text-[6px] uppercase tracking-widest font-bold">📅 DATE</p>
-                  <p className="text-[10px] font-serif font-bold whitespace-nowrap">{data?.baratDate || "November 26, 2026"}</p>
+                  <p className="text-[10px] font-serif font-bold whitespace-nowrap">{data?.baratDate || "November 21, 2026"}</p>
                </div>
                <canvas 
                  ref={canvasRef}
@@ -129,8 +129,8 @@ function Slide4Barat({ data }) {
             
             <div className="mt-3 flex flex-col items-center">
               <p className="text-[#800000] text-[6px] uppercase tracking-widest font-bold">📍 VENUE</p>
-              <p className="text-[#800000] text-[9px] font-medium leading-tight px-2">Royal Palm Marquee, Gujranwala</p>
-              <p className="text-[#800000] text-[8px] font-bold uppercase mt-0.5">Arrival | 7:00 P.M.</p>
+              <p className="text-[#800000] text-[9px] font-medium leading-tight px-2">Anmol White Marquee, Fareed Town, Sialkot Road Near Canal Bridge  Gujranwala</p>
+              <p className="text-[#800000] text-[8px] font-bold uppercase mt-0.5">Arrival | 12:00 P.M.</p>
             </div>
           </div>
         </div>

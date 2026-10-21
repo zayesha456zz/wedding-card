@@ -76,9 +76,9 @@ function Slide5Valima({ data }) {
             </div>
 
             <div className="space-y-4 w-full text-[10px] text-[#5c0612] font-semibold">
-              <p>📅 {data?.valimaDate || "Saturday, Nov 28, 2026"}</p>
-              <p>⏰ 07:00 PM</p>
-              <p className="leading-tight px-2">📍 {data?.valimaVenue || "Garrison Marriage Hall, Gujranwala"}</p>
+              <p>📅 {data?.valimaDate || "Sunday, Nov 22, 2026"}</p>
+              <p>⏰ 06:00 PM</p>
+              <p className="leading-tight px-2">📍 {data?.valimaVenue || "Tulip Marquee is located on G.T. Road, Jhelum Bridge, Sarai Alamgir situated right on the bank of the Jhelum River."}</p>
             </div>
             
             <div className="w-16 h-px bg-[#d4af37] mt-2 mb-4"></div>
