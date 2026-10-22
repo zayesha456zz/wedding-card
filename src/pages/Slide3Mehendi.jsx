@@ -67,10 +67,15 @@ function Slide3Mehendi() {
               <p className="uppercase text-[8px] tracking-widest font-extrabold">6:00 P.M.</p>
             </div>
             <p className="text-[10px] font-medium pt-1">November 2026</p>
-            <p className="font-semibold text-[#1f4b23] text-[8px] px-1">
-              Khursheed Palace, Wahdat Colony,Race Course Road, 
-              Gujranwala
-            </p>
+            {/* Address split into two clear, bold lines */}
+            <div className="pt-0.5">
+              <p className="font-bold text-[#1f4b23] text-[7.5px] leading-tight px-1">
+                Khursheed Palace, Wahdat Colony,
+              </p>
+              <p className="font-bold text-[#1f4b23] text-[7.5px] leading-tight px-1">
+                Race Course Road, Gujranwala
+              </p>
+            </div>
           </div>
         </div>
 

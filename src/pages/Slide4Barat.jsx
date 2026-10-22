@@ -90,7 +90,7 @@ function Slide4Barat({ data }) {
           <img src="/barat couple.png" alt="Barat Couple" className="w-full h-auto object-contain" />
         </div>
         
-        <div className="absolute bottom-0 right-0 z-55 w-45 max-w-60 pointer-events-none brightness-75">
+        <div className="absolute bottom-0 right-0 z-55 w-35 max-w-60 pointer-events-none brightness-75">
           <img src="/bride parent.png" alt="Bride Parents" className="w-full h-auto object-contain" />
         </div>
 
