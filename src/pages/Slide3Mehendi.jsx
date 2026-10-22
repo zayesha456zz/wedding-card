@@ -12,11 +12,11 @@ function Slide3Mehendi() {
   });
 
   return (
-    <section className="w-full h-dvh bg-[#faf6ee] flex items-center justify-center overflow-hidden">
+    <section className="w-full h-full bg-[#faf6ee] flex items-center justify-center overflow-hidden">
       
-      {/* Canvas: Fixed 9/16 ratio, background image class se handle ki hai */}
+      {/* Canvas: Fixed 9/16 ratio */}
       <div 
-        className="relative w-full max-w-100 aspect-9/16 bg-[#faf6ee] shadow-2xl overflow-hidden flex flex-col items-center justify-center bg-cover bg-center"
+        className="relative w-full max-w-100 aspect-9/16 bg-[#faf6ee] overflow-hidden flex flex-col items-center justify-center bg-cover bg-center"
         style={{ backgroundImage: "url('/mehndi bg.jpeg')" }}
       >
         
@@ -40,7 +40,7 @@ function Slide3Mehendi() {
         </div>
         
         {/* Main Content Card - Center mein */}
-        <div className="relative z-10 w-[80%] bg-[#fffaf0]/90 border-double border-4 border-[#a17a41] rounded-2xl p-4 shadow-2xl flex flex-col items-center text-center">
+        <div className="relative z-10 w-[80%] bg-[#fffaf0]/90 border-double border-4 border-[#a17a41] rounded-2xl p-4 shadow-2xl flex flex-col items-center text-center my-auto">
           <div className="absolute inset-2 border border-[#a17a41]/40 rounded-xl pointer-events-none" />
           
           <div className="absolute bottom-2 left-2 z-20 w-10 transform scale-x-[-1]">
@@ -75,7 +75,7 @@ function Slide3Mehendi() {
         </div>
 
         {/* Characters Layer */}
-        <div className="absolute bottom-0 left-0 z-20 w-42">
+        <div className="absolute bottom-0 left-0 z-20 w-40">
           <img src="/mehndi_couple.png" alt="Mehndi Couple" className="w-full h-auto object-contain" />
         </div>
         

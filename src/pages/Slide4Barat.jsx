@@ -60,7 +60,7 @@ function Slide4Barat({ data }) {
   };
 
   return (
-    <section className="w-full h-dvh flex items-center justify-center bg-[#800000]/10 overflow-hidden">
+    <section className="w-full h-full flex items-center justify-center bg-[#800000]/10 overflow-hidden">
       <div 
         className="relative w-full max-w-100 aspect-9/16 shadow-2xl overflow-hidden flex flex-col items-center justify-center bg-center bg-no-repeat bg-[#faf6ee]"
         style={{ 
@@ -85,7 +85,7 @@ function Slide4Barat({ data }) {
           ))}
         </div>
 
-        {/* Barat couple image ko extreme left corner par shift kiya */}
+        {/* Barat couple image */}
         <div className="absolute bottom-0 -left-9 z-60 w-54 max-w-80 pointer-events-none">
           <img src="/barat couple.png" alt="Barat Couple" className="w-full h-auto object-contain" />
         </div>
@@ -94,7 +94,6 @@ function Slide4Barat({ data }) {
           <img src="/bride parent.png" alt="Bride Parents" className="w-full h-auto object-contain" />
         </div>
 
-        {/* 'translate-x-3' ama 'translate-x-4' itti daballee gara mirgaatti xiqqoo siqsineera */}
         <div className="relative z-40 w-[74%] min-h-90 p-4 flex flex-col items-center justify-center translate-x-3">
           <img src="/barat blok.png" alt="Baraat Background Scroll" className="absolute inset-0 w-full h-full object-fill opacity-95 pointer-events-none" />
 
@@ -130,8 +129,10 @@ function Slide4Barat({ data }) {
             
             <div className="mt-2.5 flex flex-col items-center">
               <p className="text-[#800000] text-[6px] uppercase tracking-widest font-bold">📍 VENUE</p>
-              <p className="text-[#800000] text-[6px] font-medium leading-tight px-1">Anmol White Marquee, Fareed Town, Sialkot Road Near Canal Bridge  Gujranwala</p>
-              <p className="text-[#800000] text-[8px] font-bold uppercase mt-0.5">Arrival | 12:00 P.M.</p>
+              {/* Address split into two clear, bold lines */}
+              <p className="text-[#800000] text-[6.5px] font-bold leading-tight px-1">Anmol White Marquee, Fareed Town,</p>
+              <p className="text-[#800000] text-[6.5px] font-bold leading-tight px-1">Sialkot Road Near Canal Bridge Gujranwala</p>
+              <p className="text-[#800000] text-[8px] font-bold uppercase mt-1">Arrival | 12:00 P.M.</p>
             </div>
           </div>
         </div>

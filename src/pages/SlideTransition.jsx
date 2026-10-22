@@ -1,11 +1,9 @@
 function SlideTransition() {
   return (
-    // Outer container: Puri screen cover karega
-    <section className="w-full h-dvh bg-[#faf6ee] flex items-center justify-center overflow-hidden">
+    <section className="w-full h-full bg-[#faf6ee] flex items-center justify-center overflow-hidden">
       
-      {/* Fixed Canvas: Jo laptop jaisa ratio fix rakhega */}
       <div 
-        className="relative w-full max-w-112.5 aspect-9/16 bg-[#faf6ee] shadow-2xl overflow-hidden flex items-center justify-center"
+        className="relative w-full max-w-100 aspect-9/16 bg-[#faf6ee] shadow-2xl overflow-hidden flex items-center justify-center"
         style={{
           backgroundImage: "url('/lemon.jpeg')",
           backgroundSize: 'cover',
@@ -16,12 +14,12 @@ function SlideTransition() {
         {/* Overlay */}
         <div className="absolute inset-0 bg-white/30 backdrop-blur-[1px]" />
 
-        {/* Musicians (Ab ye box ke andar fixed rahenge) */}
-        <div className="absolute bottom-30 left-4 z-20 w-30 animate-pulse">
+        {/* Musicians (Shifted lower down) */}
+        <div className="absolute bottom-10 left-4 z-20 w-28 animate-pulse">
           <img src="/drum.png" alt="Musicians" className="w-full h-auto drop-shadow-2xl" />
         </div>
 
-        <div className="absolute bottom-30 right-4 z-20 w-30 animate-pulse">
+        <div className="absolute bottom-10 right-4 z-20 w-28 animate-pulse">
           <img src="/drum.png" alt="Musicians" className="w-full h-auto drop-shadow-2xl scale-x-[-1]" />
         </div>
 
